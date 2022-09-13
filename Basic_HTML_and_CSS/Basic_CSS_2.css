@@ -1,0 +1,25 @@
+p {
+	background-color:aqua; 
+	color:darkmagenta; 
+	font-weight:bolder; 
+	font-size:xx-large; 
+	text-align:center;
+	text-shadow: 4px 4px 2px #006400; <!-- shadow slightly to right and below text, slight blur and green in color -->
+	}
+ol {
+	background: #FF8C00;
+	}
+ol li {
+	background: #8B0000;
+	color: #2F4F4F;
+	margin: 5px;
+}
+ul {
+	background: #000080;
+	list-style-type: square;
+}
+ul li {
+	background: #6B8E23;
+	color: #FF4500;
+	margin: 5px;
+}
