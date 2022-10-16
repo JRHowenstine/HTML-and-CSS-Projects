@@ -10,10 +10,10 @@ body {
 }
 
 .menu-container {
-    top: 0;
+    top: 0; /* location of menu */
     left: 0;
     /*to the top edge of the screen*/
-    position: absolute;
+    position: absolute; /*absolute means flush against edge no margin*/
     width: 100%;
     background-color: #184352;
 }
@@ -21,20 +21,22 @@ body {
 .menu {
     font: bold 12px/18px sans-serif;
     text-align: center;
-    display: inline;
+    display: inline; /* inline means they will appear together, 
+                    appear horinzontally listed */
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: none; /*no dots for list */
 }
 
 .menu li {
     color: #b3b3b3;
-    display: inline-block;
+    display: inline-block;/* inline means they will appear togther on 
+                            same block level, appear horinzontally listed */
     margin-right: -2px;
     position: relative;
     padding: 12px 40px;
     border: 1px solid #9d9fa2;
-    border-radius: 1.5px;
+    border-radius: 1.5px; /*still rectangular but slightly rounded edges */
     background-color: #387593;
     cursor: pointer;
 }
@@ -45,7 +47,7 @@ body {
 }
 
 .menu li:hover ul{
-    display: block;
+    display: block; /* drop down menu is vertical not inline */
     opacity: 1;
     /*While hovered,drop down-menu appears
     This also avoids a block-level bug*/
