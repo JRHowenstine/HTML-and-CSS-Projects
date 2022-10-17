@@ -308,7 +308,7 @@ section {
     text-decoration: underline;
 }
 
-.submit input[type="text"] {
+.submit input[type="submit"] {
     color: rgb(225, 225, 225);
     cursor: pointer;
     border: none;
